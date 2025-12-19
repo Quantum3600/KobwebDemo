@@ -34,7 +34,7 @@ fun ProfileCard(colorMode: ColorMode) {
             )
             .thenIf(
                 breakpoint <= Breakpoint.MD,
-                Modifier.height(Res.Dimensions.MAX_HEIGHT.px)
+                Modifier.height(Res.Dimensions.MAX_HEIGHT.px + 300.px)
             )
             .boxShadow (
                 color = Colors.Black.copy(alpha = 10),

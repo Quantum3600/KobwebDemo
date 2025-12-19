@@ -70,6 +70,10 @@ fun LeftPane(
                 .margin(bottom = 24.px)
                 .fontSize(18.px)
                 .fontFamily(Res.String.ROBOTO_REG)
+                .textAlign(
+                    if (breakpoint <= Breakpoint.MD) TextAlign.Center
+                    else TextAlign.Start
+                )
                 .color(if(colorMode.isLight) Colors.Black else Colors.White)
         )
         Surface(
