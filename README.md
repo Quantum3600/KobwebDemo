@@ -90,7 +90,7 @@ Contributions are welcome! Feel free to fork the repository, submit issues, or o
 
 If you have any questions or feedback, feel free to reach out:
 
-- **Email**: [Your Email Here](mailto:your-email@example.com)
+- **Email**: [trishitquantum360@gmail.com](mailto:trishitquantum360@gmail.com)
 - **GitHub**: [Quantum3600](https://github.com/Quantum3600)
 
 ---
