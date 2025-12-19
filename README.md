@@ -1,53 +1,98 @@
-This is a [Kobweb](https://github.com/varabyte/kobweb) project bootstrapped with the `app/empty` template.
+# Kobweb Demo: Profile Card Example
 
-This template is useful if you already know what you're doing and just want a clean slate. By default, it
-just creates a blank home page (which prints to the console so you can confirm it's working)
+Welcome to the **Kobweb Demo - Profile Card Example**! This project showcases a beautifully designed profile card built entirely with **Kotlin**, demonstrating the power of server-side rendering with Kobweb. The demo includes interactive features such as dark and light themes, as well as an email button for quick contact.
 
-If you are still learning, consider instantiating the `app` template (or one of the examples) to see actual,
-working projects.
+![Kobweb Profile Card Demo Screenshot](https://via.placeholder.com/800x400?text=Profile+Card+Demo) <!-- Replace this with a real screenshot -->
 
-## Getting Started
+---
 
-First, run the development server by typing the following command in a terminal under the `site` folder:
+## 🌟 Features
 
-```bash
-$ cd site
-$ kobweb run
-```
+- **Profile Card**: A simple and elegant profile card with personalized contact details.
+- **Email Button**: Clickable button to send an email directly.
+- **Dark and Light Themes**: Toggle between dark and light modes effortlessly.
+- **Built with Pure Kotlin**: No JavaScript required! This project leverages the powerful Kotlin ecosystem for a seamless experience.
 
-Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
+---
 
-You can use any editor you want for the project, but we recommend using **IntelliJ IDEA Community Edition** downloaded
-using the [Toolbox App](https://www.jetbrains.com/toolbox-app/).
+## 🚀 Getting Started
 
-Press `Q` in the terminal to gracefully stop the server.
+Follow these steps to run the project locally:
 
-### Live Reload
+1. Clone this repository:
 
-Feel free to edit / add / delete new components, pages, and API endpoints! When you make any changes, the site will
-indicate the status of the build and automatically reload when ready.
+   ```bash
+   git clone https://github.com/Quantum3600/KobwebDemo.git
+   ```
 
-## Exporting the Project
+2. Navigate to the `site` folder:
 
-When you are ready to ship, you should shutdown the development server and then export the project using:
+   ```bash
+   cd site
+   ```
 
-```bash
-kobweb export
-```
+3. Run the development server:
 
-When finished, you can run a Kobweb server in production mode:
+   ```bash
+   kobweb run
+   ```
 
-```bash
-kobweb run --env prod
-```
+   Open [http://localhost:8080](http://localhost:8080) in your browser to view the result.
 
-If you want to run this command in the Cloud provider of your choice, consider disabling interactive mode since nobody
-is sitting around watching the console in that case anyway. To do that, use:
+4. Press `Q` in the terminal to gracefully stop the server when you're done.
+
+---
+
+## 🌐 Live Reload
+
+Make changes to your components, pages, or API endpoints and see the updates live! The development server automatically detects changes and reloads the application.
+
+---
+
+## 📦 Deploying the Project
+
+### Export for Production
+
+When you're ready to deploy:
+
+1. Shut down the development server.
+2. Export the project with:
+
+   ```bash
+   kobweb export
+   ```
+
+3. Run the project in production mode:
+
+   ```bash
+   kobweb run --env prod
+   ```
+
+For automated environments (e.g., cloud providers), disable interactive mode:
 
 ```bash
 kobweb run --env prod --notty
 ```
 
-Kobweb also supports exporting to a static layout which is compatible with static hosting providers, such as GitHub
-Pages, Netlify, Firebase, any presumably all the others. You can read more about that approach here:
-https://bitspittle.dev/blog/2022/staticdeploy
+### Static Site Export
+
+You can also export the project for static site hosting (e.g., GitHub Pages, Netlify, Firebase). Learn more about static deployment [here](https://bitspittle.dev/blog/2022/staticdeploy).
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repository, submit issues, or open pull requests.
+
+---
+
+## 📧 Contact
+
+If you have any questions or feedback, feel free to reach out:
+
+- **Email**: [Your Email Here](mailto:your-email@example.com)
+- **GitHub**: [Quantum3600](https://github.com/Quantum3600)
+
+---
+
+Built with ❤️ using [Kobweb](https://github.com/varabyte/kobweb) and Kotlin.
