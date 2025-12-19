@@ -2,7 +2,14 @@
 
 Welcome to the **Kobweb Demo - Profile Card Example**! This project showcases a beautifully designed profile card built entirely with **Kotlin**, demonstrating the power of server-side rendering with Kobweb. The demo includes interactive features such as dark and light themes, as well as an email button for quick contact.
 
-![Kobweb Profile Card Demo Screenshot](https://via.placeholder.com/800x400?text=Profile+Card+Demo) <!-- Replace this with a real screenshot -->
+![Kobweb Profile Card Demo Screenshot](https://github.com/Quantum3600/KobwebDemo/blob/main/Screenshot%202025-12-20%20000628.png?raw=true) <!-- Replace this with a real screenshot -->
+
+---
+
+🌍 Live Demo
+
+🚀 View the live deployment here:
+👉 https://kobwebdemo.onrender.com/
 
 ---
 
