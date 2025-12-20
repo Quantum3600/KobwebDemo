@@ -8,7 +8,7 @@ Welcome to the **Kobweb Demo - Profile Card Example**! This project showcases a 
 
 🌍 Live Demo
 
-🚀 View the live deployment here:  /
+🚀 View the live deployment here:  
 👉 https://kobwebdemo.onrender.com/
 
 ---
